@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="هذا موقع مصمم لتسجيل الأفراد لاحصائيات للصحة">
+    <meta name="author" content="Abdullah Nawaf Badwan">
+    <meta name="keywords" content="وصلة">
+    <title>وصلة</title>
+    <link rel="shortcut icon" href="images/image/image/logo/logoColorful.png" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head head-no-bg">
+            <div class="row">
+                <div class="logo">
+                    <img src="images/image/image/logo/logoColorful.png" alt="">
+                </div>
+                <div class="row  inform-doctor">
+                    <img src="images/image/image/Ellips.png" alt="">
+                    <div class="col">
+                        <h3>محمد احمد</h3>
+                        <h4>دكتور اخصائي</h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="hero-2">
+                <h3>
+                    <a href="index.html">الرئيسية</a> <i class="fa-solid fa-greater-than"></i>
+                    <a href="dashboard.html">لوحة التحكم</a> <i class="fa-solid fa-greater-than"></i>
+                    <a href="#">فتح ملف جديد</a>
+                </h3>
+            </section>
+            <section id="tab">
+                <ul>
+                    <li><a href="#" class="active">بيانات الطفل</a></li>
+                    <li><a href="dataMother.html">بيانات الام</a></li>
+                    <li><a href="#">بيانات الاب</a></li>
+                    <li><a href="dataFamily.html">بيانات الاسرة</a></li>
+                </ul>
+            </section>
+            <section id="data_information_about_children">
+                <form action="">
+                    <div class="basic_data">
+                        <h2>
+                            <img src="images/image/image/newFile/personal-information.png" alt="">
+                            <span>بيانات اساسية</span>
+                        </h2>
+                        <div class="row">
+                            <div class="full-name col">
+                                <label for="full-name">الاسم كاملا:</label>
+                                <input type="text" placeholder="ادخل الاسم كاملا..." id="full-name" name="full-name">
+                            </div>
+                            <div class="serial-number col">
+                                <label for="id-number">رقم الهوية:</label>
+                                <input type="number" placeholder="ادخل رقم الهوية..." id="id-nimber" name="id-number">
+                            </div>
+                            <div class="date col">
+                                <label for="date-birth">تاريخ الميلاد:</label>
+                                <input type="date" placeholder="YYYY/MM/DD" id="date-birth" name="date-birth">
+                            </div>
+                            <div class="place-of-birth col">
+                                <label for="place-of-birth">مكان الميلاد:</label>
+                                <input type="text" placeholder="ادخل مكان الميلاد..." id="place-of-birth" name="place-of-birth">
+                            </div>
+                            <div class="gender col">
+                                <label for="gender">الجنس:</label>
+                                <select id="gender" name="gender">
+                                    <option value="" disabled selected>اختر الجنس...</option>
+                                    <option value="male">ذكر</option>
+                                    <option value="female">انثى</option>
+                                </select>
+                            </div>
+                            <div class="nationality col">
+                                <label for="nationality">الجنسية:</label>
+                                <select name="nationality" id="nationality">
+                                    <option value="" selected disabled>ادخل الجنسية...</option>
+                                    <option value="saudi">السعودية</option>
+                                    <option value="egyptian">المصرية</option>
+                                    <option value="emirati">الإماراتية</option>
+                                    <option value="kuwaiti">الكويتية</option>
+                                    <option value="qatari">القطرية</option>
+                                    <option value="bahraini">البحرينية</option>
+                                    <option value="omani">العمانية</option>
+                                    <option value="jordanian">الأردنية</option>
+                                    <option value="syrian">السورية</option>
+                                    <option value="lebanese">اللبنانية</option>
+                                    <option value="moroccan">المغربية</option>
+                                    <option value="tunisian">التونسية</option>
+                                    <option value="algerian">الجزائرية</option>
+                                    <option value="sudanese">السودانية</option>
+                                    <option value="iraqi">العراقية</option>
+                                    <option value="yemeni">اليمنية</option>
+                                    <option value="palestinian">الفلسطينية</option>
+                                    <option value="other">أخرى</option>
+                                </select>
+                            </div>
+                            <div class="the-residential-area col">
+                                <label for="residential-area">المنطقة السكنية:</label>
+                                <input type="text" placeholder="ادخل المنطقة السكنية..." name="residential-area" id="residential-area">
+                            </div>
+                            <div class="city col">
+                                <label for="city">المدينة:</label>
+                                <select id="city" name="city">
+                                    <option value="" disabled selected>اختر المدينة</option>
+                                    <option value="jerusalem">القدس</option>
+                                    <option value="ramallah">رام الله</option>
+                                    <option value="gaza">غزة</option>
+                                    <option value="bethlehem">بيت لحم</option>
+                                    <option value="nablus">نابلس</option>
+                                    <option value="jenin">جنين</option>
+                                    <option value="hebron">الخليل</option>
+                                    <option value="tulkarm">طولكرم</option>
+                                    <option value="qalqilya">قلقيلية</option>
+                                    <option value="jericho">أريحا</option>
+                                    <option value="salfit">سلفيت</option>
+                                    <option value="tubas">طوباس</option>
+                                    <option value="bethany">بيت عنيا</option>
+                                    <option value="beitlahm">بيت لحم</option>
+                                    <option value="dura">دورا</option>
+                                    <option value="bani-naim">بني نعيم</option>
+                                    <option value="deir-al-balah">دير البلح</option>
+                                    <option value="khan-younis">خان يونس</option>
+                                    <option value="rafah">رفح</option>
+                                    <option value="as-samu">السامو</option>
+                                    <option value="al-ram">الرام</option>
+                                    <option value="beersheba">بئر السبع</option>
+                                    <option value="al-majdal">المجدل</option>
+                                    <option value="beith-afa">بيت آفا</option>
+                                    <option value="other">أخرى</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="healt_data">
+                        <h2>
+                            <img src="images/image/image/newFile/medical1.png" alt="">
+                            <span>بيانات صحية</span>
+                        </h2>
+                        <div class="form">
+                            <div class="row">
+                                <label for="qes1">هل لدى الطفل اعاقة اخرى؟</label>
+                                <div class="rtl">
+                                    <input type="radio" name="qes1" id="yes">
+                                    <label for="yes">نعم</label>
+                                    <input type="radio" name="qes1" id="no">
+                                    <label for="no">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="qes2">هل لدى الطفل امراض مزمنة؟</label>
+                                <div class="rtl">
+                                    <input type="radio" name="qes2" id="yes-qes2">
+                                    <label for="yes-qes2">نعم</label>
+                                    <input type="radio" name="qes2" id="no-qes2">
+                                    <label for="no-qes2">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="qes3">هل لدى الطفل امراض وراثية؟</label>
+                                <div class="rtl">
+                                    <input type="radio" name="qes3" id="yes-qes3">
+                                    <label for="yes-qes3">نعم</label>
+                                    <input type="radio" name="qes3" id="no-qes3">
+                                    <label for="no-qes3">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="qes4">هل لدى الطفل مشاكل صحية اخرى؟</label>
+                                <div class="rtl">
+                                    <input type="radio" name="qes4" id="yes-qes4">
+                                    <label for="yes-qes4">نعم</label>
+                                    <input type="radio" name="qes4" id="no-qes4">
+                                    <label for="no-qes4">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label for="qes1">هل مراحل النمو عند الطفل طبيعية منذ الولادة؟</label>
+                                <div class="rtl">
+                                    <input type="radio" name="qes5" id="yes-qes5">
+                                    <label for="yes-qes5">نعم</label>
+                                    <input type="radio" name="qes5" id="no-qes5">
+                                    <label for="no-qes5">لا</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="حفظ البيانات">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="row contact">
+                <div class="logo-white">
+                    <img src="images/image/image/logo/LogoWhite.svg" alt="">
+                </div>
+                <div class="icons">
+                    <h3>تابعنا على مواقع التواصل</h3>
+                    <ul class="row">
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/snapchat.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/tektok.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/twitaer.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/face.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/insta.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright row">
+                <h3>&copy; وصل 2023. جميع الحقوق محفوظة</h3>
+                <h3>الخصوصية وشروط الاستخدام</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

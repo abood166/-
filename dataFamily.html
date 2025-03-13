@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="هذا موقع مصمم لتسجيل الأفراد لاحصائيات للصحة">
+    <meta name="author" content="Abdullah Nawaf Badwan">
+    <meta name="keywords" content="وصلة">
+    <title>وصلة</title>
+    <link rel="shortcut icon" href="images/image/image/logo/logoColorful.png" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head head-no-bg">
+            <div class="row">
+                <div class="logo">
+                    <img src="images/image/image/logo/logoColorful.png" alt="">
+                </div>
+                <div class="row  inform-doctor">
+                    <img src="images/image/image/Ellips.png" alt="">
+                    <div class="col">
+                        <h3>محمد احمد</h3>
+                        <h4>دكتور اخصائي</h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="hero-2">
+                <h3>
+                    <a href="index.html">الرئيسية</a> <i class="fa-solid fa-greater-than"></i>
+                    <a href="dashboard.html">لوحة التحكم</a> <i class="fa-solid fa-greater-than"></i>
+                    <a href="#">فتح ملف جديد</a>
+                </h3>
+            </section>
+            <section id="tab">
+                <ul>
+                    <li><a href="dataChildren.html">بيانات الطفل</a></li>
+                    <li><a href="dataMother.html">بيانات الام</a></li>
+                    <li><a href="#">بيانات الاب</a></li>
+                    <li><a href="#" class="active">بيانات الاسرة</a></li>
+                </ul>
+            </section>
+            <section id="data_information_about_children">
+                <form action="">
+                    <div class="col data_family">
+                        <h2>
+                            <img src="images/image/image/family/family.png" alt="">
+                            <span>بيانات الاسرة</span>
+                        </h2>
+                        <div class="col family-number">
+                            <label for="family_number">عدد أفراد الأسرة:</label>
+                            <select name="family_number" id="family_number">
+                                <option selected disabled>اختر عدد أفراد الأسرة...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                                <option>6</option>
+                                <option>7</option>
+                                <option>8+</option>
+                            </select>
+                        </div>
+                        <div class="col male-children">
+                            <label for="male-children">عدد الأبناء الذكور:</label>
+                            <select id="male-children" name="male-children">
+                                <option disabled selected>اختر عدد الأبناء الذكور...</option>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>4+</option>
+                            </select>
+                        </div>
+                        <div class="col female-children">
+                            <label for="female-children">عدد الإناث:</label>
+                            <select id="female-children" name="female-children">
+                                <option disabled selected>اختر عدد الإناث...</option>
+                                <option>0</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>4+</option>
+                            </select>
+                        </div>
+                        <div class="col child-rank">
+                            <label for="child-rank">ترتيب الطفل بين إخوته:</label>
+                            <select id="child-rank" name="child-rank">
+                                <option disabled selected>اختر ترتيب الطفل...</option>
+                                <option>الأول</option>
+                                <option>الثاني</option>
+                                <option>الثالث</option>
+                                <option>الأخير</option>
+                            </select>
+                        </div>
+                        <div class="col autistic-sibling">
+                            <label for="autistic-sibling">هل لدى الطفل شقيق يعاني من التوحد؟</label>
+                            <select id="autistic-sibling" name="autistic-sibling">
+                                <option disabled selected>اختر الإجابة...</option>
+                                <option>نعم</option>
+                                <option>لا</option>
+                            </select>
+                        </div>
+                        <div class="col twin-child">
+                            <label for="twin-child">هل لدى الطفل توأم؟</label>
+                            <select id="twin-child" name="twin-child">
+                                <option selected disabled>اختر الإجابة...</option>
+                                <option>نعم</option>
+                                <option>لا</option>
+                            </select>
+                        </div>
+                        <div class="col family-status">
+                            <label for="family-status">الحالة الاجتماعية للأسرة:</label>
+                            <select id="family-status" name="family-status">
+                                <option selected disabled>اختر الحالة...</option>
+                                <option>متزوج</option>
+                                <option>منفصل</option>
+                                <option>أرمل</option>
+                            </select>
+                        </div>
+                        <div class="col child-living">
+                            <label for="child-living">مع من يسكن الطفل؟</label>
+                            <select id="child-living" name="child-living">
+                                <option selected disabled>اختر...</option>
+                                <option>مع الوالدين</option>
+                                <option>مع الأم فقط</option>
+                                <option>مع الأب فقط</option>
+                                <option>مع الأقارب</option>
+                            </select>
+                        </div>
+                        <div class="col family-income">
+                            <label for="family-income">متوسط دخل الأسرة الشهري:</label>
+                            <select id="family-income" name="family-income">
+                                <option selected disabled>اختر...</option>
+                                <option>أقل من 2000</option>
+                                <option>2000 - 5000</option>
+                                <option>5000 - 10000</option>
+                                <option>أكثر من 10000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="حفظ البيانات">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="row contact">
+                <div class="logo-white">
+                    <img src="images/image/image/logo/LogoWhite.svg" alt="">
+                </div>
+                <div class="icons">
+                    <h3>تابعنا على مواقع التواصل</h3>
+                    <ul class="row">
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/snapchat.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/tektok.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/twitaer.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/face.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/insta.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright row">
+                <h3>&copy; وصل 2023. جميع الحقوق محفوظة</h3>
+                <h3>الخصوصية وشروط الاستخدام</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

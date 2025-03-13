@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="هذا موقع مصمم لتسجيل الأفراد لاحصائيات للصحة">
+    <meta name="author" content="Abdullah Nawaf Badwan">
+    <meta name="keywords" content="وصلة">
+    <title>وصلة</title>
+    <link rel="shortcut icon" href="images/image/image/logo/logoColorful.png" type="image/x-icon">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="head head-no-bg">
+            <div class="row">
+                <div class="logo">
+                    <img src="images/image/image/logo/logoColorful.png" alt="">
+                </div>
+                <div class="row  inform-doctor">
+                    <img src="images/image/image/Ellips.png" alt="">
+                    <div class="col">
+                        <h3>محمد احمد</h3>
+                        <h4>دكتور اخصائي</h4>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section id="hero-2">
+                <h3>
+                    <a href="index.html">الرئيسية</a> <i class="fa-solid fa-greater-than"></i>
+                    <a href="dashboard.html">لوحة التحكم</a> <i class="fa-solid fa-greater-than"></i>
+                    <a href="#">فتح ملف جديد</a>
+                </h3>
+            </section>
+            <section id="tab">
+                <ul>
+                    <li><a href="dataChildren.html">بيانات الطفل</a></li>
+                    <li><a href="#" class="active">بيانات الام</a></li>
+                    <li><a href="#">بيانات الاب</a></li>
+                    <li><a href="dataFamily.html">بيانات الاسرة</a></li>
+                </ul>
+            </section>
+            <section id="data_information_about_children">
+                <form action="">
+                    <div class="basic_data">
+                        <h2>
+                            <img src="images/image/image/newFile/personal-information.png" alt="">
+                            <span>بيانات اساسية</span>
+                        </h2>
+                        <div class="row">
+                            <div class="full-name col">
+                                <label for="full-name">الاسم كاملا:</label>
+                                <input type="text" placeholder="ادخل الاسم كاملا..." id="full-name" name="full-name">
+                            </div>
+                            <div class="serial-number col">
+                                <label for="id-number">رقم الهوية:</label>
+                                <input type="number" placeholder="ادخل رقم الهوية..." id="id-nimber" name="id-number">
+                            </div>
+                            <div class="date col">
+                                <label for="date-birth">تاريخ الميلاد:</label>
+                                <input type="date" placeholder="YYYY/MM/DD" id="date-birth" name="date-birth">
+                            </div>
+                            <div class="social-status col">
+                                <label for="social-status">الحالة الاجتماعية:</label>
+                                <select name="social-status" id="social-status">
+                                    <option value="" disabled selected>اختر الحالة الاجتماعية...</option>
+                                    <option value="single">عزباء</option>
+                                    <option value="married">متزوجة</option>
+                                    <option value="divorced">مطلقة</option>
+                                    <option value="widowed">ارملة</option>
+                                </select>
+                            </div>
+                            <div class="phone col">
+                                <label for="phone">رقم التواصل</label>
+                                <input type="phone" placeholder="رقم التواصل..." id="phone" name="phone">
+                            </div>
+                            <div class="education col">
+                                <label for="education">المستوى التعليمي:</label>
+                                <select id="education" name="education-level">
+                                    <option value="" selected disabled>اختر المستوى التعليمي</option>
+                                    <option value="ابتدائي">ابتدائي</option>
+                                    <option value="إعدادي">إعدادي</option>
+                                    <option value="ثانوي">ثانوي</option>
+                                    <option value="جامعي">جامعي</option>
+                                </select>
+                            </div>
+                            <div class="nature-of-the-work col">
+                                <label for="work-nature">طبيعة العمل:</label>
+                                <select id="work-nature" class="work-nature">
+                                    <option value="" selected disabled>اختر طبيعة العمل</option>
+                                    <option value="حكومي">حكومي</option>
+                                    <option value="خاص">خاص</option>
+                                    <option value="حرة">حرة</option>
+                                    <option value="ربة منزل">ربة منزل</option>
+                                    <option value="أخرى">أخرى</option>
+                                </select>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="healt_data">
+                        <h2>
+                            <img src="images/image/image/newFile/medical1.png" alt="">
+                            <span>بيانات صحية</span>
+                        </h2>
+                        <div class="form">
+                            <div class="row">
+                                <label>هل الأم مدخنة؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="smoking-yes" name="smoking" value="yes">
+                                    <label for="smoking-yes">نعم</label>
+                                    <input type="radio" id="smoking-no" name="smoking" value="no">
+                                    <label for="smoking-no">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>هل لدى الأم إعاقات؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="disability-yes" name="disability" value="yes">
+                                    <label for="disability-yes">نعم</label>
+                                    <input type="radio" id="disability-no" name="disability" value="no">
+                                    <label for="disability-no">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>ما هي الحالة النفسية للأم؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="mental-normal" name="mental_health" 
+                                    value="طبيعية">
+                                    <label for="mental-normal">طبيعية</label>
+                                    <input type="radio" id="mental-issues" name="mental_health" 
+                                    value="تعاني من مشاكل نفسية">
+                                    <label for="mental-issues">تعاني من مشاكل نفسية</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>ما هي درجة التواصل مع الطفل؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="communication-strong" 
+                                    name="child_communication" value="strong">
+                                    <label for="communication-strong">قوية</label>
+                                    <input type="radio" id="communication-medium" 
+                                    name="child_communication" value="medium">
+                                    <label for="communication-medium">متوسطة</label>
+                                    <input type="radio" id="communication-weak" name="child_communication" 
+                                    value="weak">
+                                    <label for="communication-weak">ضعيفة</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>هل الحمل بطفل التوائم؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="twins-yes" name="multiple_pregnancy" 
+                                    value="yes">
+                                    <label for="twins-yes">نعم</label>
+                                    <input type="radio" id="twins-no" name="multiple_pregnancy" 
+                                    value="no">
+                                    <label for="twins-no">لا</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>كم كانت أشهر الحمل بالأطفال؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="pregnancy-7" name="pregnancy_duration" 
+                                    value="7">
+                                    <label for="pregnancy-7">7 أشهر</label>
+                                    <input type="radio" id="pregnancy-8" name="pregnancy_duration" 
+                                    value="8">
+                                    <label for="pregnancy-8">8 أشهر</label>
+                                    <input type="radio" id="pregnancy-9" name="pregnancy_duration" 
+                                    value="9">
+                                    <label for="pregnancy-9">9 أشهر</label>
+                                    <input type="radio" id="pregnancy-10" name="pregnancy_duration" 
+                                    value="10">
+                                    <label for="pregnancy-10">10 أشهر</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>هل كانت ولادة الطفل طبيعية؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="birth-natural" name="birth_type" 
+                                    value="natural">
+                                    <label for="birth-natural">طبيعية</label>
+                                    <input type="radio" id="birth-cesarean" name="birth_type" 
+                                    value="cesarean">
+                                    <label for="birth-cesarean">قيصرية</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <label>هل الرضاعة طبيعية؟</label>
+                                <div class="rtl">
+                                    <input type="radio" id="breastfeeding-yes" name="breastfeeding" 
+                                    value="yes">
+                                    <label for="breastfeeding-yes">نعم</label>
+                                    <input type="radio" id="breastfeeding-no" name="breastfeeding" 
+                                    value="no">
+                                    <label for="breastfeeding-no">لا</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" value="حفظ البيانات">
+                    </div>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <div class="row contact">
+                <div class="logo-white">
+                    <img src="images/image/image/logo/LogoWhite.svg" alt="">
+                </div>
+                <div class="icons">
+                    <h3>تابعنا على مواقع التواصل</h3>
+                    <ul class="row">
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/snapchat.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/tektok.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/twitaer.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/face.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="images/image/image/iconSochalMedia/insta.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright row">
+                <h3>&copy; وصل 2023. جميع الحقوق محفوظة</h3>
+                <h3>الخصوصية وشروط الاستخدام</h3>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
