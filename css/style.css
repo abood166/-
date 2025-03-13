@@ -80,7 +80,7 @@ body{
             right: 100px;
         }
         .nav{
-            width: 15%;
+            width: 17%;
             ul{
                 li{
                     &:nth-child(1) a{
@@ -138,7 +138,12 @@ body{
         }
     }
     .inform-doctor{
-        width: 14%;
+        width: 16%;
+        img{
+            width: 50px;
+            height: 50px;
+            border-raduis: 50%;
+        }
         .col{
             margin-top: 10px;
             h4{
