@@ -140,6 +140,7 @@ body{
     .inform-doctor{
         width: 14%;
         .col{
+            margin-top: 10px;
             h4{
                 margin-top: 5px;
                 color: var(--text-black);
@@ -444,7 +445,7 @@ main{
             div{
                 width: 33%;
                 label{
-                     margin-bottom: 5px;
+                    margin-bottom: 10px;
                 }
                 input, select{
                     padding: 10px 20px;
@@ -503,7 +504,7 @@ main{
                     width: 50%;
                     height: 3px;
                     right: 0px;
-                    top: 30px;
+                    top: 35px;
                     background-color: var(--text-dark);
                 }
             }
