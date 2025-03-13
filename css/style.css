@@ -492,7 +492,7 @@ main{
     .basic_data, .healt_data, .data_family{
         background-color: var(--bg-form);
         padding: 25px 30px;
-        h2{
+       h2{
             font-size: 25px;
             margin-bottom: 30px;
             span{
