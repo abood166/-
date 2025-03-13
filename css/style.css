@@ -103,7 +103,7 @@ body{
         margin: 20px auto;
     }
     .nav{
-        width: 17%;
+        width: 15%;
     ul{
             li{
                 a{
@@ -501,10 +501,10 @@ main{
                 &::after{
                     content: "";
                     position: absolute;
-                    width: 50%;
+                    width: 40%;
                     height: 3px;
                     right: 0px;
-                    top: 35px;
+                    top: 40px;
                     background-color: var(--text-dark);
                 }
             }
